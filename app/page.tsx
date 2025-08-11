@@ -19,6 +19,7 @@ import {
   EMAIL,
   SOCIAL_LINKS,
 } from './data'
+import { TextEffect } from '@/components/ui/text-effect'
 
 const VARIANTS_CONTAINER = {
   hidden: { opacity: 0 },
@@ -136,9 +137,20 @@ export default function Personal() {
         transition={TRANSITION_SECTION}
       >
         <div className="flex-1">
-          <p className="text-zinc-600 dark:text-zinc-400">
-            Focused on creating intuitive and performant web experiences.
-            Bridging the gap between design and development.
+          <p className="text-justify text-zinc-600 dark:text-zinc-500">
+            A 3rd year senior high school student in International School of
+            TechnoNatura, Indonesia.
+          </p>
+          <p className="text-justify text-zinc-600 dark:text-zinc-500">
+            I excel in Maths and Physics with a 3.56 average GPA with experience
+            winning International Robotic Competitions such as FIRST Tech
+            Challenge with my school robotics team, R2045.
+          </p>
+          <p className="text-justify text-zinc-600 dark:text-zinc-500">
+            I love building tools/software that can be helpful for everyone! I
+            dream to study abroad to accomplish my dream to build a startup SaaS
+            that can solve real-world problems and provide jobs for people in
+            need.
           </p>
         </div>
       </motion.section>
@@ -161,7 +173,7 @@ export default function Personal() {
                   target="_blank"
                 >
                   {project.name}
-                  <span className="absolute bottom-0.5 left-0 block h-[1px] w-full max-w-0 bg-zinc-900 dark:bg-zinc-50 transition-all duration-200 group-hover:max-w-full"></span>
+                  <span className="absolute bottom-0.5 left-0 block h-[1px] w-full max-w-0 bg-zinc-900 transition-all duration-200 group-hover:max-w-full dark:bg-zinc-50"></span>
                 </a>
                 <p className="text-base text-zinc-600 dark:text-zinc-400">
                   {project.description}
@@ -176,7 +188,7 @@ export default function Personal() {
         variants={VARIANTS_SECTION}
         transition={TRANSITION_SECTION}
       >
-        <h3 className="mb-5 text-lg font-medium">Work Experience</h3>
+        <h3 className="mb-5 text-lg font-medium">Personal Experience</h3>
         <div className="flex flex-col space-y-2">
           {WORK_EXPERIENCE.map((job) => (
             <a

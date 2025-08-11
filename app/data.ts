@@ -29,48 +29,103 @@ type SocialLink = {
 
 export const PROJECTS: Project[] = [
   {
-    name: 'Motion Primitives Pro',
+    name: 'ShadcnUI Vaults',
     description:
-      'Advanced components and templates to craft beautiful websites.',
-    link: 'https://pro.motion-primitives.com/',
+      'A collection of shadcn/ui components and blocks specifically made for building modern Internal Tool Web applications.',
+    link: 'https://shadcn-vaults.vercel.app/',
     video:
       'https://res.cloudinary.com/read-cv/video/upload/t_v_b/v1/1/profileItems/W2azTw5BVbMXfj7F53G92hMVIn32/newProfileItem/d898be8a-7037-4c71-af0c-8997239b050d.mp4?_a=DATAdtAAZAA0',
-    id: 'project1',
-  },
-  {
-    name: 'Motion Primitives',
-    description: 'UI kit to make beautiful, animated interfaces.',
-    link: 'https://motion-primitives.com/',
-    video:
-      'https://res.cloudinary.com/read-cv/video/upload/t_v_b/v1/1/profileItems/W2azTw5BVbMXfj7F53G92hMVIn32/XSfIvT7BUWbPRXhrbLed/ee6871c9-8400-49d2-8be9-e32675eabf7e.mp4?_a=DATAdtAAZAA0',
     id: 'project2',
   },
+  {
+    name: 'SAT CollegeBoard Practice Platform',
+    description:
+      'A free web-based platform to practice SAT question bank from CollegeBoard, designed for students to enhance their test preparation skills.',
+    link: 'https://practicesat.vercel.app/',
+    video:
+      'https://res.cloudinary.com/dzbrvfphg/video/upload/v1754536162/SAT_Test3_sldufr.mp4',
+    id: 'project3',
+  },
+  {
+    name: 'IFR Foundation Website',
+    description:
+      'A long term 2 years project including community service mentoring, outreach, and competitions.',
+    link: 'https://ifrfoundation.org/',
+    video:
+      'https://res.cloudinary.com/dzbrvfphg/video/upload/v1754882643/IFR-Website-Demo-2_annfg5.mov',
+    id: 'project4',
+  },
+
+  {
+    name: 'IntiServer Website',
+    description:
+      'A long term 2 years project including community service mentoring, outreach, and competitions.',
+    link: 'https://intiserver.com/',
+    video:
+      'https://res.cloudinary.com/dzbrvfphg/video/upload/v1754882848/IntiServerWebsite_xi0j4s.mp4',
+    id: 'project5',
+  },
+
+  // {
+  //   name: 'FTC Team Documentation Website',
+  //   description: 'UI kit to make beautiful, animated interfaces.',
+  //   link: 'https://motion-primitives.com/',
+  //   video:
+  //     'https://res.cloudinary.com/read-cv/video/upload/t_v_b/v1/1/profileItems/W2azTw5BVbMXfj7F53G92hMVIn32/XSfIvT7BUWbPRXhrbLed/ee6871c9-8400-49d2-8be9-e32675eabf7e.mp4?_a=DATAdtAAZAA0',
+  //   id: 'project5',
+  // },
 ]
 
 export const WORK_EXPERIENCE: WorkExperience[] = [
   {
-    company: 'Reglazed Studio',
-    title: 'CEO',
-    start: '2024',
+    company: "Senior High School\'s Student Council",
+    title: 'Secretary',
+    start: '2025',
     end: 'Present',
-    link: 'https://ibelick.com',
+    link: '#',
     id: 'work1',
   },
   {
-    company: 'Freelance',
-    title: 'Design Engineer',
-    start: '2022',
-    end: '2024',
-    link: 'https://ibelick.com',
+    company: 'Community Service',
+    title: 'Robotics Mentor',
+    start: '2024',
+    end: 'Present',
+    link: '#',
     id: 'work2',
   },
   {
-    company: 'Freelance',
-    title: 'Front-end Developer',
-    start: '2017',
+    company: 'IFR Foundation Indonesia',
+    title: 'Volunteering as Web Developer',
+    start: '2024',
     end: 'Present',
-    link: 'https://ibelick.com',
+    link: 'https://ifrfoundation.org',
     id: 'work3',
+  },
+  {
+    company: 'IntiServer',
+    title: 'Part-Time Full-Stack Developer',
+    start: '2022',
+    end: 'Present',
+    link: 'https://intiserver.com',
+    id: 'work4',
+  },
+
+  {
+    company: 'R2045 FTC #19829',
+    title: 'Team Captain & Lead Programmer',
+    start: '2023',
+    end: '2025',
+    link: 'https://r2045.vercel.app',
+    id: 'work5',
+  },
+
+  {
+    company: "Junior High School's Student Council",
+    title: 'Engineering Exhibition Lead Event Organizer',
+    start: 'April 2022',
+    end: 'May 2022',
+    link: '#',
+    id: 'work6',
   },
 ]
 
@@ -97,7 +152,8 @@ export const BLOG_POSTS: BlogPost[] = [
   },
   {
     title: 'How to Export Metadata from MDX for Next.js SEO',
-    description: 'A guide on exporting metadata from MDX files to leverage Next.js SEO features.',
+    description:
+      'A guide on exporting metadata from MDX files to leverage Next.js SEO features.',
     link: '/blog/example-mdx-metadata',
     uid: 'blog-4',
   },
@@ -106,20 +162,16 @@ export const BLOG_POSTS: BlogPost[] = [
 export const SOCIAL_LINKS: SocialLink[] = [
   {
     label: 'Github',
-    link: 'https://github.com/ibelick',
-  },
-  {
-    label: 'Twitter',
-    link: 'https://twitter.com/ibelick',
+    link: 'https://github.com/aldhanekaa',
   },
   {
     label: 'LinkedIn',
-    link: 'https://www.linkedin.com/in/ibelick',
+    link: 'https://www.linkedin.com/in/aldhaneka-aufa-izzat-218119262',
   },
   {
     label: 'Instagram',
-    link: 'https://www.instagram.com/ibelick',
+    link: 'https://www.instagram.com/aldhanekai',
   },
 ]
 
-export const EMAIL = 'your@email.com'
+export const EMAIL = 'aldhanekadev@gmail.com'
