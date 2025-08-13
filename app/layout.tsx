@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     template: '%s | Aldhaneka',
   },
   description:
-    'Nim is a free and open-source personal website template built with Next.js 15, React 19 and Motion-Primitives.',
+    'A software engineer who loves to build beautiful and performant web applications. Focused on frontend development with React, Next.js, and TypeScript.',
 }
 
 const geist = Geist({

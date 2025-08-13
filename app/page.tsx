@@ -155,6 +155,12 @@ export default function Personal() {
           </p>
         </div>
       </motion.section>
+      <motion.section
+        variants={VARIANTS_SECTION}
+        transition={TRANSITION_SECTION}
+      >
+        <SkillSection />
+      </motion.section>
 
       <motion.section
         variants={VARIANTS_SECTION}
@@ -221,13 +227,6 @@ export default function Personal() {
             </a>
           ))}
         </div>
-      </motion.section>
-
-      <motion.section
-        variants={VARIANTS_SECTION}
-        transition={TRANSITION_SECTION}
-      >
-        <SkillSection />
       </motion.section>
 
       <motion.section
