@@ -1,4 +1,4 @@
-import { AwardCard } from '@/components/ui/achievement-cards' // Adjust path
+import { AwardCard } from '@/components/ui/achievement-card' // Adjust path
 import { motion } from 'framer-motion'
 import { Rocket, Trophy } from 'lucide-react'
 
