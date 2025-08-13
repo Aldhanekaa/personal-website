@@ -28,15 +28,15 @@ type SocialLink = {
 }
 
 export const PROJECTS: Project[] = [
-  {
-    name: 'ShadcnUI Vaults',
-    description:
-      'A collection of shadcn/ui components and blocks specifically made for building modern Internal Tool Web applications.',
-    link: 'https://shadcn-vaults.vercel.app/',
-    video:
-      'https://res.cloudinary.com/read-cv/video/upload/t_v_b/v1/1/profileItems/W2azTw5BVbMXfj7F53G92hMVIn32/newProfileItem/d898be8a-7037-4c71-af0c-8997239b050d.mp4?_a=DATAdtAAZAA0',
-    id: 'project2',
-  },
+  // {
+  //   name: 'ShadcnUI Vaults',
+  //   description:
+  //     'A collection of shadcn/ui components and blocks specifically made for building modern Internal Tool Web applications.',
+  //   link: 'https://shadcn-vaults.vercel.app/',
+  //   video:
+  //     'https://res.cloudinary.com/read-cv/video/upload/t_v_b/v1/1/profileItems/W2azTw5BVbMXfj7F53G92hMVIn32/newProfileItem/d898be8a-7037-4c71-af0c-8997239b050d.mp4?_a=DATAdtAAZAA0',
+  //   id: 'project2',
+  // },
   {
     name: 'SAT CollegeBoard Practice Platform',
     description:
@@ -127,35 +127,24 @@ export const WORK_EXPERIENCE: WorkExperience[] = [
     link: '#',
     id: 'work6',
   },
+  {
+    company: "Junior High School's Student Council",
+    title: 'Community Social Welfare Treasurer',
+    start: 'April 2022',
+    end: 'March 2022',
+    link: '#',
+    id: 'work7',
+  },
 ]
 
 export const BLOG_POSTS: BlogPost[] = [
   {
-    title: 'Exploring the Intersection of Design, AI, and Design Engineering',
-    description: 'How AI is changing the way we design',
-    link: '/blog/exploring-the-intersection-of-design-ai-and-design-engineering',
+    title:
+      'Daydream: From Website Builders to Self-Taught Full-Stack Developer',
+    description:
+      'A journey from a website builder to a self-taught full-stack developer',
+    link: '/blog/daydream',
     uid: 'blog-1',
-  },
-  {
-    title: 'Why I left my job to start my own company',
-    description:
-      'A deep dive into my decision to leave my job and start my own company',
-    link: '/blog/exploring-the-intersection-of-design-ai-and-design-engineering',
-    uid: 'blog-2',
-  },
-  {
-    title: 'What I learned from my first year of freelancing',
-    description:
-      'A look back at my first year of freelancing and what I learned',
-    link: '/blog/exploring-the-intersection-of-design-ai-and-design-engineering',
-    uid: 'blog-3',
-  },
-  {
-    title: 'How to Export Metadata from MDX for Next.js SEO',
-    description:
-      'A guide on exporting metadata from MDX files to leverage Next.js SEO features.',
-    link: '/blog/example-mdx-metadata',
-    uid: 'blog-4',
   },
 ]
 

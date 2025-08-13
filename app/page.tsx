@@ -20,6 +20,7 @@ import {
   SOCIAL_LINKS,
 } from './data'
 import { TextEffect } from '@/components/ui/text-effect'
+import SkillSection from '@/components/ui/skills'
 
 const VARIANTS_CONTAINER = {
   hidden: { opacity: 0 },
@@ -220,6 +221,13 @@ export default function Personal() {
             </a>
           ))}
         </div>
+      </motion.section>
+
+      <motion.section
+        variants={VARIANTS_SECTION}
+        transition={TRANSITION_SECTION}
+      >
+        <SkillSection />
       </motion.section>
 
       <motion.section
